@@ -5,6 +5,7 @@ import gnu.trove.TFloatArrayList;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -41,7 +42,21 @@ public class WorldBankQueries {
 		}
 		return units;
 	}
-
+	/**
+	 * Reads the country names and returns them in an Arraylist
+	 * @return Arraylist of countries
+	 */
+	ArrayList<String> readCountries(String fileName) throws IOException{
+		BufferedReader br = new BufferedReader(new FileReader(DatabaseMetadata.countriesFile));
+		ArrayList<String> countries = new ArrayList<String>();
+		String temp = null;
+		while((temp = br.readLine()) != null) {
+			countries.add(temp);
+		}
+		br.close();
+		return countries;
+	}
+	
 	/**
 	 * @throws Exception
 	 */
