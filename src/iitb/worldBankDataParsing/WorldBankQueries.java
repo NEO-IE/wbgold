@@ -14,6 +14,8 @@ import java.util.HashSet;
 
 import javax.xml.crypto.Data;
 
+import meta.DatabaseMetadata;
+
 public class WorldBankQueries {
 
 	public static String extractUnits(String header, String[] contextTokens) {
@@ -70,7 +72,7 @@ public class WorldBankQueries {
 	 */
 	public static void genericWorldBankDataParser() throws Exception {
 		String store = DatabaseMetadata.store;
-		String outFile = DatabaseMetadata.BaseDir + "worldbank-queries.xml";
+		String outFile = DatabaseMetadata.BaseDir + meta.DatabaseMetadata.opFile;
 
 		PrintWriter attrInfoWriter = new PrintWriter(
 				DatabaseMetadata.attrInfoFile);
@@ -201,8 +203,8 @@ public class WorldBankQueries {
 				if (timeVals == null && v > 0 && vals.get(v) == vals.get(v - 1))
 					continue;
 				System.out.println("<value"
-						+ (timeVals != null ? " time=\"" + timeVals.get(v)
-								+ "\"" : "") + ">" + vals.get(v) + "</value>");
+						+ (timeVals != null ? " time=" + timeVals.get(v)
+								+ "" : "") + ">" + vals.get(v) + "</value>");
 			}
 		}
 		System.out.println("</answerSet>\n<unit>" + (unit == null ? "" : unit)
