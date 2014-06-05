@@ -1,4 +1,4 @@
-EN.ATM.CO2E.KT,CO2 emissions (kt),kt
-AG.LND.FRST.K2,Forest area (sq. km),sq. km
-SP.POP.TOTL,Population,
-AG.LND.TOTL.K2,Land area (sq. km),sq. km
+EN.ATM.CO2E.KT	CO2 emissions (kt)	true	359.366	8236.082	kt
+AG.LND.FRST.K2	Forest area (sq. km)	true	13500.0	13500.0	sq. km
+SP.POP.TOTL	Population	true	8953544.0	2.9824536E7	
+AG.LND.TOTL.K2	Land area (sq. km)	true	652230.0	652230.0	sq. km

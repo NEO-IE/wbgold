@@ -45,62 +45,67 @@ public class WorldBankQueries {
 		}
 		return units;
 	}
+
 	/**
 	 * Reads the country names and returns them in an Arraylist
+	 * 
 	 * @return Arraylist of countries
 	 */
-	public static HashSet<String> readCountries() throws IOException{
-		BufferedReader br = new BufferedReader(new FileReader(DatabaseMetadata.countriesFile));
+	public static HashSet<String> readCountries() throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(
+				DatabaseMetadata.countriesFile));
 		ArrayList<String> countries = new ArrayList<String>();
 		String temp = null;
-		while((temp = br.readLine()) != null) {
+		while ((temp = br.readLine()) != null) {
 			countries.add(temp);
 		}
 		br.close();
 		return new HashSet<String>(countries);
 	}
-	
+
 	/**
 	 * Reads the xml downloaded from data.worldbank.org
+	 * 
 	 * @throws Exception
 	 */
 	public static void genericWorldBankDataParser() throws Exception {
 		String store = DatabaseMetadata.store;
 		String outFile = DatabaseMetadata.BaseDir + "worldbank-queries.xml";
-		
-		PrintWriter attrInfoWriter = new PrintWriter(DatabaseMetadata.attrInfoFile);
-		//Set the outstream
+
+		PrintWriter attrInfoWriter = new PrintWriter(
+				DatabaseMetadata.attrInfoFile);
+		// Set the outstream
 		System.setOut(new PrintStream(new File(outFile)));
 		// HashSet<String> selectedAttrs=new
 		// HashSet<String>(Arrays.asList(attrsA));
-		
+
 		HashSet<String> countries = WorldBankQueries.readCountries();
 		java.util.Hashtable<String, String> unitMap = new java.util.Hashtable<String, String>();
 		unitMap.put("sq. km", "square kilometre");
 		unitMap.put("kt", "kiloton");
 		// TObjectFloatHashMap<String> country2Area =
 		// getCAFromWikiInfo(countries);
-		
+
 		File dir = new File(store);
-	
+
 		File files[] = dir.listFiles();
 		boolean range = true;
 		System.out.println("<worldbank-sample-queries>");
 		for (int i = 0; i < files.length; i++) {
 			String fname = files[i].getName();
-			
+
 			if (!fname.endsWith(".csv"))
 				continue;
-		
+
 			BufferedReader in = new BufferedReader(new FileReader(files[i]));
 			in.readLine();
 			in.readLine(); // skip the first 2 lines.
 			String line = in.readLine();
-			
+
 			int numCols = line.split(",").length;
 			String cols[] = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
 			for (int cnt = 0; (line = in.readLine()) != null; cnt++) {
-				
+
 				String flds[] = line.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
 				if (flds.length != numCols) {
 					throw new Exception("File corrupted at line " + cnt);
@@ -112,9 +117,6 @@ public class WorldBankQueries {
 				}
 				String entityName = flds[DatabaseMetadata.ENTITY_NAME_INDEX];
 				String entityCode = flds[DatabaseMetadata.ENTITY_CODE_INDEX];
-				System.err.println("Entity : " + entityName);
-				
-				System.err.println(countries);
 				if (!countries.contains(entityName))
 					continue;
 				String attrName = flds[DatabaseMetadata.INDICATOR_NAME_INDEX];
@@ -124,7 +126,7 @@ public class WorldBankQueries {
 				float maxVal = Float.NEGATIVE_INFINITY;
 				TFloatArrayList vals = new TFloatArrayList();
 				ArrayList<String> timeVals = new ArrayList<String>();
-				
+
 				for (int col = 4; col < flds.length; col++) {
 					if (flds[col] == null || flds[col].trim().length() == 0)
 						continue;
@@ -142,10 +144,14 @@ public class WorldBankQueries {
 				String unit = extractUnits(attrName, attrNameNU);
 				// if (!selectedAttrs.contains(attrNameNU[0].toLowerCase()))
 				// break;
-				printRecord(null, entityCode, attrNameNU[0],
+				printRecord(null, entityCode, attrCode,
 						unitMap.get(unit.trim()), vals, minVal, maxVal, range,
 						timeVals);
-				attrInfoWriter.write(attrCode + "," + attrName + "," + unit.trim() + "\n");
+				System.err.println("Attr: " + attrName + " minVal : " + minVal + " maxVal : " + maxVal + " Range : " + range );
+				attrInfoWriter.write(attrCode + "\t" + attrName + "\t" + range + "\t" + minVal + "\t" + maxVal + "\t" + unit.trim() + "\n");
+	
+				// tabs so that the file can be directly loaded in mysql
+												
 				// if (vals.size() > 2) qproc.testIntervals(vals,minVal,maxVal);
 			}
 		}
