@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 
+import javax.xml.crypto.Data;
+
 public class WorldBankQueries {
 
 	public static String extractUnits(String header, String[] contextTokens) {
@@ -46,7 +48,7 @@ public class WorldBankQueries {
 	 * Reads the country names and returns them in an Arraylist
 	 * @return Arraylist of countries
 	 */
-	ArrayList<String> readCountries(String fileName) throws IOException{
+	public static HashSet<String> readCountries() throws IOException{
 		BufferedReader br = new BufferedReader(new FileReader(DatabaseMetadata.countriesFile));
 		ArrayList<String> countries = new ArrayList<String>();
 		String temp = null;
@@ -54,26 +56,23 @@ public class WorldBankQueries {
 			countries.add(temp);
 		}
 		br.close();
-		return countries;
+		return new HashSet<String>(countries);
 	}
 	
 	/**
+	 * Reads the xml downloaded from data.worldbank.org
 	 * @throws Exception
 	 */
 	public static void genericWorldBankDataParser() throws Exception {
-		/*
-		 * This function reads the world bank csv file and parses it accordingly
-		 * to create an xml file.
-		 */
-
 		String store = DatabaseMetadata.store;
 		String outFile = DatabaseMetadata.BaseDir + "worldbank-queries.xml";
-
+		
+		//Set the outstream
 		System.setOut(new PrintStream(new File(outFile)));
 		// HashSet<String> selectedAttrs=new
 		// HashSet<String>(Arrays.asList(attrsA));
 		
-		HashSet<String> countries = new HashSet<String>();
+		HashSet<String> countries = WorldBankQueries.readCountries();
 		java.util.Hashtable<String, String> unitMap = new java.util.Hashtable<String, String>();
 		unitMap.put("sq. km", "square kilometre");
 		unitMap.put("kt", "kiloton");
@@ -109,13 +108,15 @@ public class WorldBankQueries {
 						flds[j] = flds[j].substring(1, flds[j].length() - 1);
 					}
 				}
-				String entityName = flds[0];
+				String entityName = flds[DatabaseMetadata.ENTITY_NAME_INDEX];
+				String entityCode = flds[DatabaseMetadata.ENTITY_CODE_INDEX];
 				System.err.println("Entity : " + entityName);
 				
 				System.err.println(countries);
 				if (!countries.contains(entityName))
 					continue;
-				String attrName = flds[2];
+				String attrName = flds[DatabaseMetadata.INDICATOR_NAME_INDEX];
+				String attrCode = flds[DatabaseMetadata.INDICATOR_CODE_INDEX];
 
 				float minVal = Float.POSITIVE_INFINITY;
 				float maxVal = Float.NEGATIVE_INFINITY;
