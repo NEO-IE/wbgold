@@ -1,5 +1,7 @@
 <worldbank-sample-queries>
-<quantityquery> <queryString>AFG;EN.ATM.CO2E.KT</queryString><answerSet>
+<quantityquery>
+ <queryString>AFG;EN.ATM.CO2E.KT</queryString>
+<answerSet>
 <string>359.366-8236.082</string>
 <value time=""1961"">491.378</value>
 <value time=""1962"">689.396</value>
@@ -51,8 +53,12 @@
 <value time=""2008"">3927.357</value>
 <value time=""2009"">6523.593</value>
 <value time=""2010"">8236.082</value>
-</answerSet><unit>kiloton</unit></quantityquery>
-<quantityquery> <queryString>AFG;AG.LND.FRST.K2</queryString><answerSet>
+</answerSet>
+<unit>kiloton</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;AG.LND.FRST.K2</queryString>
+<answerSet>
 <string>13500.0-13500.0</string>
 <value time=""1990"">13500.0</value>
 <value time=""1991"">13500.0</value>
@@ -76,8 +82,12 @@
 <value time=""2009"">13500.0</value>
 <value time=""2010"">13500.0</value>
 <value time=""2011"">13500.0</value>
-</answerSet><unit>square kilometre</unit></quantityquery>
-<quantityquery> <queryString>AFG;SP.POP.TOTL</queryString><answerSet>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;SP.POP.TOTL</queryString>
+<answerSet>
 <string>8953544.0-2.9824536E7</string>
 <value time=""1961"">8953544.0</value>
 <value time=""1962"">9141783.0</value>
@@ -131,8 +141,12 @@
 <value time=""2010"">2.8397812E7</value>
 <value time=""2011"">2.910548E7</value>
 <value time=""2012"">2.9824536E7</value>
-</answerSet><unit></unit></quantityquery>
-<quantityquery> <queryString>AFG;AG.LND.TOTL.K2</queryString><answerSet>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;AG.LND.TOTL.K2</queryString>
+<answerSet>
 <string>652230.0-652230.0</string>
 <value time=""1961"">652230.0</value>
 <value time=""1962"">652230.0</value>
@@ -185,5 +199,7 @@
 <value time=""2009"">652230.0</value>
 <value time=""2010"">652230.0</value>
 <value time=""2011"">652230.0</value>
-</answerSet><unit>square kilometre</unit></quantityquery>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
 </worldbank-sample-queries>

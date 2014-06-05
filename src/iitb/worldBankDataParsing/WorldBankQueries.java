@@ -179,9 +179,9 @@ public class WorldBankQueries {
 			boolean range, ArrayList<String> timeVals) {
 
 		System.out.println("<quantityquery"
-				+ (id == null ? "" : " id=\"" + id + "\"") + "> <queryString>"
+				+ (id == null ? "" : " id=\"" + id + "\"") + ">\n <queryString>"
 				+ entityName.trim() + ";" + attrName.trim()
-				+ "</queryString><answerSet>");
+				+ "</queryString>\n<answerSet>");
 		if (vals != null && timeVals == null) {
 			vals.sort();
 		}
@@ -205,8 +205,8 @@ public class WorldBankQueries {
 								+ "\"" : "") + ">" + vals.get(v) + "</value>");
 			}
 		}
-		System.out.println("</answerSet><unit>" + (unit == null ? "" : unit)
-				+ "</unit></quantityquery>");
+		System.out.println("</answerSet>\n<unit>" + (unit == null ? "" : unit)
+				+ "</unit>\n</quantityquery>");
 	}
 
 	public static void printRecord(String entityName, String attrName,
