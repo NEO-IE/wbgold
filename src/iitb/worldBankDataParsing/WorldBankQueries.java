@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -67,6 +68,7 @@ public class WorldBankQueries {
 		String store = DatabaseMetadata.store;
 		String outFile = DatabaseMetadata.BaseDir + "worldbank-queries.xml";
 		
+		PrintWriter attrInfoWriter = new PrintWriter(DatabaseMetadata.attrInfoFile);
 		//Set the outstream
 		System.setOut(new PrintStream(new File(outFile)));
 		// HashSet<String> selectedAttrs=new
@@ -140,12 +142,14 @@ public class WorldBankQueries {
 				String unit = extractUnits(attrName, attrNameNU);
 				// if (!selectedAttrs.contains(attrNameNU[0].toLowerCase()))
 				// break;
-				printRecord(null, entityName, attrNameNU[0],
+				printRecord(null, entityCode, attrNameNU[0],
 						unitMap.get(unit.trim()), vals, minVal, maxVal, range,
 						timeVals);
+				attrInfoWriter.write(attrCode + "," + attrName + "," + unit.trim() + "\n");
 				// if (vals.size() > 2) qproc.testIntervals(vals,minVal,maxVal);
 			}
 		}
+		attrInfoWriter.close();
 		System.out.println("</worldbank-sample-queries>");
 	}
 
