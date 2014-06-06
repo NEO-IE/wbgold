@@ -7,6 +7,6 @@ public class XMLMetaData {
 	public static String QUERY_STR_TAG = "queryString";
 	public static String ENTITY_ATTR_SEP = ";";
 	public static int QUERY_STR_POS = 1;
-	public static int ANSWER_POS = 2;
+	public static int ANSWER_POS = 3;
 	
 }

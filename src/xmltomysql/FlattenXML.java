@@ -2,10 +2,10 @@
 package xmltomysql;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 
-import javax.lang.model.element.Element;
-import javax.swing.text.StyledEditorKit.ForegroundAction;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -32,8 +32,10 @@ public class FlattenXML {
 	 * 
 	 * @param the
 	 *            file in which the flattened values are desired
+	 * @throws IOException 
 	 */
-	public static void flatten(String op) {
+	public static void flatten(String op) throws IOException {
+		PrintWriter resultPrinter = new PrintWriter(op);
 		File fXmlFile = new File(DatabaseMetadata.BaseDir + meta.DatabaseMetadata.opFile);
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder;
@@ -59,8 +61,8 @@ public class FlattenXML {
 			Node queryNode = nList.item(i);
 			NodeList queryNodeChldList = queryNode.getChildNodes();
 			
-			Node queryStringNode = queryNodeChldList.item(1);
-			Node answerSetNode = queryNodeChldList.item(3);
+			Node queryStringNode = queryNodeChldList.item(XMLMetaData.QUERY_STR_POS);
+			Node answerSetNode = queryNodeChldList.item(XMLMetaData.ANSWER_POS);
 			String[] queryInfo = queryStringNode.getTextContent().split(XMLMetaData.ENTITY_ATTR_SEP);
 			String entityCode = queryInfo[0];
 			String attrCode = queryInfo[1];
@@ -71,13 +73,13 @@ public class FlattenXML {
 				String val = valueNodes.item(j).getTextContent().trim();
 				org.w3c.dom.Element valele = (org.w3c.dom.Element) valueNodes.item(j); 
 				String time = valele.getAttribute("time");
-				System.out.println(entityCode + "\t" + attrCode + "\t" + val + "\t" + time);
+				resultPrinter.write(entityCode + "\t" + attrCode + "\t" + val + "\t" + time + "\n");
 			}
 			
 		}
-
+		resultPrinter.close();
 	}
-	public static void main(String args[]) {
+	public static void main(String args[]) throws IOException {
 		FlattenXML.flatten("res");
 	}
 }

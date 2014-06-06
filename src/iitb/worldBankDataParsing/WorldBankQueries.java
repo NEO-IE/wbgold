@@ -76,6 +76,9 @@ public class WorldBankQueries {
 
 		PrintWriter attrInfoWriter = new PrintWriter(
 				DatabaseMetadata.attrInfoFile);
+		PrintWriter rangeInfoWriter = new PrintWriter(
+				DatabaseMetadata.rangeInfoFile);
+
 		// Set the outstream
 		System.setOut(new PrintStream(new File(outFile)));
 		// HashSet<String> selectedAttrs=new
@@ -150,14 +153,15 @@ public class WorldBankQueries {
 						unitMap.get(unit.trim()), vals, minVal, maxVal, range,
 						timeVals);
 				System.err.println("Attr: " + attrName + " minVal : " + minVal + " maxVal : " + maxVal + " Range : " + range );
-				attrInfoWriter.write(attrCode + "\t" + attrName + "\t" + range + "\t" + minVal + "\t" + maxVal + "\t" + unit.trim() + "\n");
-	
+				attrInfoWriter.write(attrCode + "\t" + attrName  + "\t" + unit.trim() + "\n");
+				rangeInfoWriter.write(entityCode + "\t" + attrCode + "\t"  + minVal + "\t" + maxVal +  "\n");	
 				// tabs so that the file can be directly loaded in mysql
 												
 				// if (vals.size() > 2) qproc.testIntervals(vals,minVal,maxVal);
 			}
 		}
 		attrInfoWriter.close();
+		rangeInfoWriter.close();
 		System.out.println("</worldbank-sample-queries>");
 	}
 

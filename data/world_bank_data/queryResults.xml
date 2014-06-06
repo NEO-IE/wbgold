@@ -1,6 +1,6 @@
 <worldbank-sample-queries>
 <quantityquery>
-<queryString>AFG;EN.ATM.CO2E.KT</queryString>
+ <queryString>AFG;EN.ATM.CO2E.KT</queryString>
 <answerSet>
 <string>359.366-8236.082</string>
 <value time="1961">491.378</value>
@@ -57,6 +57,166 @@
 <unit>kiloton</unit>
 </quantityquery>
 <quantityquery>
+ <queryString>BGD;EN.ATM.CO2E.KT</queryString>
+<answerSet>
+<string>3509.319-56152.77</string>
+<value time="1972">3509.319</value>
+<value time="1973">4554.414</value>
+<value time="1974">4660.757</value>
+<value time="1975">4869.776</value>
+<value time="1976">5570.173</value>
+<value time="1977">5812.195</value>
+<value time="1978">6017.547</value>
+<value time="1979">6648.271</value>
+<value time="1980">7638.361</value>
+<value time="1981">7931.721</value>
+<value time="1982">8599.115</value>
+<value time="1983">8236.082</value>
+<value time="1984">9123.496</value>
+<value time="1985">10234.597</value>
+<value time="1986">11463.042</value>
+<value time="1987">11862.745</value>
+<value time="1988">13545.898</value>
+<value time="1989">13454.223</value>
+<value time="1990">15533.412</value>
+<value time="1991">15940.449</value>
+<value time="1992">17748.28</value>
+<value time="1993">17407.248</value>
+<value time="1994">18969.39</value>
+<value time="1995">22816.074</value>
+<value time="1996">24029.852</value>
+<value time="1997">25063.945</value>
+<value time="1998">24048.186</value>
+<value time="1999">25236.295</value>
+<value time="2000">27869.2</value>
+<value time="2001">32456.617</value>
+<value time="2002">33707.062</value>
+<value time="2003">33883.08</value>
+<value time="2004">39750.28</value>
+<value time="2005">37553.746</value>
+<value time="2006">48136.71</value>
+<value time="2007">48466.74</value>
+<value time="2008">46435.223</value>
+<value time="2009">52328.09</value>
+<value time="2010">56152.77</value>
+</answerSet>
+<unit>kiloton</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;EN.ATM.CO2E.KT</queryString>
+<answerSet>
+<string>130402.19-2008822.9</string>
+<value time="1961">130402.19</value>
+<value time="1962">143467.7</value>
+<value time="1963">154083.67</value>
+<value time="1964">150647.69</value>
+<value time="1965">165972.1</value>
+<value time="1966">171765.95</value>
+<value time="1967">172238.98</value>
+<value time="1968">187336.03</value>
+<value time="1969">190724.34</value>
+<value time="1970">195143.08</value>
+<value time="1971">205869.05</value>
+<value time="1972">217849.14</value>
+<value time="1973">224343.39</value>
+<value time="1974">231992.75</value>
+<value time="1975">252201.6</value>
+<value time="1976">263785.66</value>
+<value time="1977">315681.03</value>
+<value time="1978">318035.25</value>
+<value time="1979">331940.5</value>
+<value time="1980">348581.34</value>
+<value time="1981">374822.4</value>
+<value time="1982">398419.56</value>
+<value time="1983">432320.97</value>
+<value time="1984">447109.97</value>
+<value time="1985">490464.9</value>
+<value time="1986">525862.44</value>
+<value time="1987">561560.7</value>
+<value time="1988">606298.1</value>
+<value time="1989">662945.94</value>
+<value time="1990">690576.75</value>
+<value time="1991">737851.75</value>
+<value time="1992">783634.25</value>
+<value time="1993">814297.7</value>
+<value time="1994">864931.6</value>
+<value time="1995">920046.6</value>
+<value time="1996">1002224.1</value>
+<value time="1997">1043939.9</value>
+<value time="1998">1071911.8</value>
+<value time="1999">1144390.0</value>
+<value time="2000">1186663.2</value>
+<value time="2001">1203843.1</value>
+<value time="2002">1226791.1</value>
+<value time="2003">1281913.5</value>
+<value time="2004">1348524.6</value>
+<value time="2005">1411127.6</value>
+<value time="2006">1504364.8</value>
+<value time="2007">1611404.5</value>
+<value time="2008">1811289.0</value>
+<value time="2009">1982262.9</value>
+<value time="2010">2008822.9</value>
+</answerSet>
+<unit>kiloton</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;EN.ATM.CO2E.KT</queryString>
+<answerSet>
+<string>14656.999-161395.67</string>
+<value time="1961">14656.999</value>
+<value time="1962">16105.464</value>
+<value time="1963">18514.684</value>
+<value time="1964">19035.396</value>
+<value time="1965">19974.148</value>
+<value time="1966">20326.182</value>
+<value time="1967">21572.96</value>
+<value time="1968">24737.582</value>
+<value time="1969">23993.182</value>
+<value time="1970">24337.879</value>
+<value time="1971">23076.432</value>
+<value time="1972">18929.055</value>
+<value time="1973">20036.488</value>
+<value time="1974">21418.947</value>
+<value time="1975">23219.443</value>
+<value time="1976">22838.076</value>
+<value time="1977">24389.217</value>
+<value time="1978">26138.377</value>
+<value time="1979">28250.568</value>
+<value time="1980">32067.914</value>
+<value time="1981">34400.13</value>
+<value time="1982">37385.066</value>
+<value time="1983">40303.996</value>
+<value time="1984">42856.23</value>
+<value time="1985">47175.953</value>
+<value time="1986">49453.16</value>
+<value time="1987">53534.53</value>
+<value time="1988">58213.625</value>
+<value time="1989">60956.54</value>
+<value time="1990">68565.56</value>
+<value time="1991">68242.87</value>
+<value time="1992">72789.95</value>
+<value time="1993">78008.09</value>
+<value time="1994">84839.71</value>
+<value time="1995">84484.016</value>
+<value time="1996">94447.25</value>
+<value time="1997">94711.27</value>
+<value time="1998">97663.21</value>
+<value time="1999">100384.125</value>
+<value time="2000">106449.34</value>
+<value time="2001">108282.84</value>
+<value time="2002">114084.04</value>
+<value time="2003">118895.14</value>
+<value time="2004">131601.3</value>
+<value time="2005">136636.1</value>
+<value time="2006">146074.94</value>
+<value time="2007">158894.78</value>
+<value time="2008">156676.23</value>
+<value time="2009">157890.02</value>
+<value time="2010">161395.67</value>
+</answerSet>
+<unit>kiloton</unit>
+</quantityquery>
+<quantityquery>
  <queryString>AFG;AG.LND.FRST.K2</queryString>
 <answerSet>
 <string>13500.0-13500.0</string>
@@ -82,6 +242,93 @@
 <value time="2009">13500.0</value>
 <value time="2010">13500.0</value>
 <value time="2011">13500.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;AG.LND.FRST.K2</queryString>
+<answerSet>
+<string>14394.0-14940.0</string>
+<value time="1990">14940.0</value>
+<value time="1991">14914.0</value>
+<value time="1992">14888.0</value>
+<value time="1993">14862.0</value>
+<value time="1994">14836.0</value>
+<value time="1995">14810.0</value>
+<value time="1996">14784.0</value>
+<value time="1997">14758.0</value>
+<value time="1998">14732.0</value>
+<value time="1999">14706.0</value>
+<value time="2000">14680.0</value>
+<value time="2001">14654.0</value>
+<value time="2002">14628.0</value>
+<value time="2003">14602.0</value>
+<value time="2004">14576.0</value>
+<value time="2005">14550.0</value>
+<value time="2006">14524.0</value>
+<value time="2007">14498.0</value>
+<value time="2008">14472.0</value>
+<value time="2009">14446.0</value>
+<value time="2010">14420.0</value>
+<value time="2011">14394.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;AG.LND.FRST.K2</queryString>
+<answerSet>
+<string>639390.0-685790.0</string>
+<value time="1990">639390.0</value>
+<value time="1991">640841.0</value>
+<value time="1992">642292.0</value>
+<value time="1993">643743.0</value>
+<value time="1994">645194.0</value>
+<value time="1995">646645.0</value>
+<value time="1996">648096.0</value>
+<value time="1997">649547.0</value>
+<value time="1998">650998.0</value>
+<value time="1999">652449.0</value>
+<value time="2000">653900.0</value>
+<value time="2001">658538.0</value>
+<value time="2002">663176.0</value>
+<value time="2003">667814.0</value>
+<value time="2004">672452.0</value>
+<value time="2005">677090.0</value>
+<value time="2006">678540.0</value>
+<value time="2007">679990.0</value>
+<value time="2008">681440.0</value>
+<value time="2009">682890.0</value>
+<value time="2010">684340.0</value>
+<value time="2011">685790.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;AG.LND.FRST.K2</queryString>
+<answerSet>
+<string>16440.0-25270.0</string>
+<value time="1990">25270.0</value>
+<value time="1991">24859.0</value>
+<value time="1992">24448.0</value>
+<value time="1993">24037.0</value>
+<value time="1994">23626.0</value>
+<value time="1995">23215.0</value>
+<value time="1996">22804.0</value>
+<value time="1997">22393.0</value>
+<value time="1998">21982.0</value>
+<value time="1999">21571.0</value>
+<value time="2000">21160.0</value>
+<value time="2001">20732.0</value>
+<value time="2002">20304.0</value>
+<value time="2003">19876.0</value>
+<value time="2004">19448.0</value>
+<value time="2005">19020.0</value>
+<value time="2006">18592.0</value>
+<value time="2007">18164.0</value>
+<value time="2008">17730.0</value>
+<value time="2009">17300.0</value>
+<value time="2010">16870.0</value>
+<value time="2011">16440.0</value>
 </answerSet>
 <unit>square kilometre</unit>
 </quantityquery>
@@ -145,6 +392,183 @@
 <unit></unit>
 </quantityquery>
 <quantityquery>
+ <queryString>BGD;SP.POP.TOTL</queryString>
+<answerSet>
+<string>5.0953504E7-1.5469536E8</string>
+<value time="1961">5.0953504E7</value>
+<value time="1962">5.2403244E7</value>
+<value time="1963">5.3909232E7</value>
+<value time="1964">5.5503132E7</value>
+<value time="1965">5.7200412E7</value>
+<value time="1966">5.9029824E7</value>
+<value time="1967">6.0966588E7</value>
+<value time="1968">6.2909224E7</value>
+<value time="1969">6.471996E7</value>
+<value time="1970">6.6308864E7</value>
+<value time="1971">6.7627872E7</value>
+<value time="1972">6.8730072E7</value>
+<value time="1973">6.9751016E7</value>
+<value time="1974">7.08832E7</value>
+<value time="1975">7.2265176E7</value>
+<value time="1976">7.3944664E7</value>
+<value time="1977">7.588008E7</value>
+<value time="1978">7.8011624E7</value>
+<value time="1979">8.0241776E7</value>
+<value time="1980">8.249844E7</value>
+<value time="1981">8.4764144E7</value>
+<value time="1982">8.7060584E7</value>
+<value time="1983">8.9399664E7</value>
+<value time="1984">9.180432E7</value>
+<value time="1985">9.428772E7</value>
+<value time="1986">9.6851504E7</value>
+<value time="1987">9.9476984E7</value>
+<value time="1988">1.02133216E8</value>
+<value time="1989">1.04779344E8</value>
+<value time="1990">1.07385848E8</value>
+<value time="1991">1.09934592E8</value>
+<value time="1992">1.12430968E8</value>
+<value time="1993">1.14897544E8</value>
+<value time="1994">1.17369488E8</value>
+<value time="1995">1.19869584E8</value>
+<value time="1996">1.22400896E8</value>
+<value time="1997">1.24945312E8</value>
+<value time="1998">1.27478528E8</value>
+<value time="1999">1.29966824E8</value>
+<value time="2000">1.32383264E8</value>
+<value time="2001">1.34729504E8</value>
+<value time="2002">1.37006272E8</value>
+<value time="2003">1.39185984E8</value>
+<value time="2004">1.4123504E8</value>
+<value time="2005">1.43135184E8</value>
+<value time="2006">1.44868704E8</value>
+<value time="2007">1.46457072E8</value>
+<value time="2008">1.47969968E8</value>
+<value time="2009">1.49503104E8</value>
+<value time="2010">1.51125472E8</value>
+<value time="2011">1.52862432E8</value>
+<value time="2012">1.5469536E8</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;SP.POP.TOTL</queryString>
+<answerSet>
+<string>4.58626688E8-1.23668672E9</string>
+<value time="1961">4.58626688E8</value>
+<value time="1962">4.67962144E8</value>
+<value time="1963">4.77616E8</value>
+<value time="1964">4.87607392E8</value>
+<value time="1965">4.9795232E8</value>
+<value time="1966">5.08656256E8</value>
+<value time="1967">5.1972224E8</value>
+<value time="1968">5.31160992E8</value>
+<value time="1969">5.4298394E8</value>
+<value time="1970">5.5519974E8</value>
+<value time="1971">5.6780506E8</value>
+<value time="1972">5.8079878E8</value>
+<value time="1973">5.9419296E8</value>
+<value time="1974">6.0800256E8</value>
+<value time="1975">6.2223238E8</value>
+<value time="1976">6.3688371E8</value>
+<value time="1977">6.5193517E8</value>
+<value time="1978">6.6733901E8</value>
+<value time="1979">6.8303251E8</value>
+<value time="1980">6.9896557E8</value>
+<value time="1981">7.1510515E8</value>
+<value time="1982">7.3144378E8</value>
+<value time="1983">7.479863E8</value>
+<value time="1984">7.6474938E8</value>
+<value time="1985">7.8173651E8</value>
+<value time="1986">7.9894182E8</value>
+<value time="1987">8.1632877E8</value>
+<value time="1988">8.3383354E8</value>
+<value time="1989">8.5137472E8</value>
+<value time="1990">8.6889069E8</value>
+<value time="1991">8.8634874E8</value>
+<value time="1992">9.0374963E8</value>
+<value time="1993">9.2110752E8</value>
+<value time="1994">9.3845254E8</value>
+<value time="1995">9.5580435E8</value>
+<value time="1996">9.7314758E8</value>
+<value time="1997">9.9046016E8</value>
+<value time="1998">1.00774656E9</value>
+<value time="1999">1.02501472E9</value>
+<value time="2000">1.04226176E9</value>
+<value time="2001">1.05950086E9</value>
+<value time="2002">1.07670566E9</value>
+<value time="2003">1.09378675E9</value>
+<value time="2004">1.11062605E9</value>
+<value time="2005">1.12714355E9</value>
+<value time="2006">1.14328934E9</value>
+<value time="2007">1.1590953E9</value>
+<value time="2008">1.17466227E9</value>
+<value time="2009">1.19013811E9</value>
+<value time="2010">1.2056247E9</value>
+<value time="2011">1.22115635E9</value>
+<value time="2012">1.23668672E9</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;SP.POP.TOTL</queryString>
+<answerSet>
+<string>4.6673628E7-1.79160112E8</string>
+<value time="1961">4.6673628E7</value>
+<value time="1962">4.7864344E7</value>
+<value time="1963">4.910936E7</value>
+<value time="1964">5.04044E7</value>
+<value time="1965">5.1746672E7</value>
+<value time="1966">5.313832E7</value>
+<value time="1967">5.4581656E7</value>
+<value time="1968">5.607484E7</value>
+<value time="1969">5.7615472E7</value>
+<value time="1970">5.9204212E7</value>
+<value time="1971">6.0840512E7</value>
+<value time="1972">6.2532284E7</value>
+<value time="1973">6.429924E7</value>
+<value time="1974">6.6167072E7</value>
+<value time="1975">6.8155248E7</value>
+<value time="1976">7.026856E7</value>
+<value time="1977">7.2505128E7</value>
+<value time="1978">7.4868888E7</value>
+<value time="1979">7.7362152E7</value>
+<value time="1980">7.9984296E7</value>
+<value time="1981">8.273308E7</value>
+<value time="1982">8.5601552E7</value>
+<value time="1983">8.857708E7</value>
+<value time="1984">9.164316E7</value>
+<value time="1985">9.4783464E7</value>
+<value time="1986">9.7998464E7</value>
+<value time="1987">1.01278128E8</value>
+<value time="1988">1.04583472E8</value>
+<value time="1989">1.078654E8</value>
+<value time="1990">1.1109088E8</value>
+<value time="1991">1.14229168E8</value>
+<value time="1992">1.17291344E8</value>
+<value time="1993">1.2033672E8</value>
+<value time="1994">1.23450936E8</value>
+<value time="1995">1.26689576E8</value>
+<value time="1996">1.30083696E8</value>
+<value time="1997">1.33597488E8</value>
+<value time="1998">1.37139296E8</value>
+<value time="1999">1.405804E8</value>
+<value time="2000">1.43832016E8</value>
+<value time="2001">1.46857088E8</value>
+<value time="2002">1.4969368E8</value>
+<value time="2003">1.52419968E8</value>
+<value time="2004">1.55151392E8</value>
+<value time="2005">1.57971408E8</value>
+<value time="2006">1.60905792E8</value>
+<value time="2007">1.63928336E8</value>
+<value time="2008">1.6700808E8</value>
+<value time="2009">1.70094E8</value>
+<value time="2010">1.73149312E8</value>
+<value time="2011">1.76166352E8</value>
+<value time="2012">1.79160112E8</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
  <queryString>AFG;AG.LND.TOTL.K2</queryString>
 <answerSet>
 <string>652230.0-652230.0</string>
@@ -199,6 +623,180 @@
 <value time="2009">652230.0</value>
 <value time="2010">652230.0</value>
 <value time="2011">652230.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;AG.LND.TOTL.K2</queryString>
+<answerSet>
+<string>130170.0-130170.0</string>
+<value time="1961">130170.0</value>
+<value time="1962">130170.0</value>
+<value time="1963">130170.0</value>
+<value time="1964">130170.0</value>
+<value time="1965">130170.0</value>
+<value time="1966">130170.0</value>
+<value time="1967">130170.0</value>
+<value time="1968">130170.0</value>
+<value time="1969">130170.0</value>
+<value time="1970">130170.0</value>
+<value time="1971">130170.0</value>
+<value time="1972">130170.0</value>
+<value time="1973">130170.0</value>
+<value time="1974">130170.0</value>
+<value time="1975">130170.0</value>
+<value time="1976">130170.0</value>
+<value time="1977">130170.0</value>
+<value time="1978">130170.0</value>
+<value time="1979">130170.0</value>
+<value time="1980">130170.0</value>
+<value time="1981">130170.0</value>
+<value time="1982">130170.0</value>
+<value time="1983">130170.0</value>
+<value time="1984">130170.0</value>
+<value time="1985">130170.0</value>
+<value time="1986">130170.0</value>
+<value time="1987">130170.0</value>
+<value time="1988">130170.0</value>
+<value time="1989">130170.0</value>
+<value time="1990">130170.0</value>
+<value time="1991">130170.0</value>
+<value time="1992">130170.0</value>
+<value time="1993">130170.0</value>
+<value time="1994">130170.0</value>
+<value time="1995">130170.0</value>
+<value time="1996">130170.0</value>
+<value time="1997">130170.0</value>
+<value time="1998">130170.0</value>
+<value time="1999">130170.0</value>
+<value time="2000">130170.0</value>
+<value time="2001">130170.0</value>
+<value time="2002">130170.0</value>
+<value time="2003">130170.0</value>
+<value time="2004">130170.0</value>
+<value time="2005">130170.0</value>
+<value time="2006">130170.0</value>
+<value time="2007">130170.0</value>
+<value time="2008">130170.0</value>
+<value time="2009">130170.0</value>
+<value time="2010">130170.0</value>
+<value time="2011">130170.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;AG.LND.TOTL.K2</queryString>
+<answerSet>
+<string>2973190.0-2973190.0</string>
+<value time="1961">2973190.0</value>
+<value time="1962">2973190.0</value>
+<value time="1963">2973190.0</value>
+<value time="1964">2973190.0</value>
+<value time="1965">2973190.0</value>
+<value time="1966">2973190.0</value>
+<value time="1967">2973190.0</value>
+<value time="1968">2973190.0</value>
+<value time="1969">2973190.0</value>
+<value time="1970">2973190.0</value>
+<value time="1971">2973190.0</value>
+<value time="1972">2973190.0</value>
+<value time="1973">2973190.0</value>
+<value time="1974">2973190.0</value>
+<value time="1975">2973190.0</value>
+<value time="1976">2973190.0</value>
+<value time="1977">2973190.0</value>
+<value time="1978">2973190.0</value>
+<value time="1979">2973190.0</value>
+<value time="1980">2973190.0</value>
+<value time="1981">2973190.0</value>
+<value time="1982">2973190.0</value>
+<value time="1983">2973190.0</value>
+<value time="1984">2973190.0</value>
+<value time="1985">2973190.0</value>
+<value time="1986">2973190.0</value>
+<value time="1987">2973190.0</value>
+<value time="1988">2973190.0</value>
+<value time="1989">2973190.0</value>
+<value time="1990">2973190.0</value>
+<value time="1991">2973190.0</value>
+<value time="1992">2973190.0</value>
+<value time="1993">2973190.0</value>
+<value time="1994">2973190.0</value>
+<value time="1995">2973190.0</value>
+<value time="1996">2973190.0</value>
+<value time="1997">2973190.0</value>
+<value time="1998">2973190.0</value>
+<value time="1999">2973190.0</value>
+<value time="2000">2973190.0</value>
+<value time="2001">2973190.0</value>
+<value time="2002">2973190.0</value>
+<value time="2003">2973190.0</value>
+<value time="2004">2973190.0</value>
+<value time="2005">2973190.0</value>
+<value time="2006">2973190.0</value>
+<value time="2007">2973190.0</value>
+<value time="2008">2973190.0</value>
+<value time="2009">2973190.0</value>
+<value time="2010">2973190.0</value>
+<value time="2011">2973190.0</value>
+</answerSet>
+<unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;AG.LND.TOTL.K2</queryString>
+<answerSet>
+<string>770880.0-770880.0</string>
+<value time="1961">770880.0</value>
+<value time="1962">770880.0</value>
+<value time="1963">770880.0</value>
+<value time="1964">770880.0</value>
+<value time="1965">770880.0</value>
+<value time="1966">770880.0</value>
+<value time="1967">770880.0</value>
+<value time="1968">770880.0</value>
+<value time="1969">770880.0</value>
+<value time="1970">770880.0</value>
+<value time="1971">770880.0</value>
+<value time="1972">770880.0</value>
+<value time="1973">770880.0</value>
+<value time="1974">770880.0</value>
+<value time="1975">770880.0</value>
+<value time="1976">770880.0</value>
+<value time="1977">770880.0</value>
+<value time="1978">770880.0</value>
+<value time="1979">770880.0</value>
+<value time="1980">770880.0</value>
+<value time="1981">770880.0</value>
+<value time="1982">770880.0</value>
+<value time="1983">770880.0</value>
+<value time="1984">770880.0</value>
+<value time="1985">770880.0</value>
+<value time="1986">770880.0</value>
+<value time="1987">770880.0</value>
+<value time="1988">770880.0</value>
+<value time="1989">770880.0</value>
+<value time="1990">770880.0</value>
+<value time="1991">770880.0</value>
+<value time="1992">770880.0</value>
+<value time="1993">770880.0</value>
+<value time="1994">770880.0</value>
+<value time="1995">770880.0</value>
+<value time="1996">770880.0</value>
+<value time="1997">770880.0</value>
+<value time="1998">770880.0</value>
+<value time="1999">770880.0</value>
+<value time="2000">770880.0</value>
+<value time="2001">770880.0</value>
+<value time="2002">770880.0</value>
+<value time="2003">770880.0</value>
+<value time="2004">770880.0</value>
+<value time="2005">770880.0</value>
+<value time="2006">770880.0</value>
+<value time="2007">770880.0</value>
+<value time="2008">770880.0</value>
+<value time="2009">770880.0</value>
+<value time="2010">770880.0</value>
+<value time="2011">770880.0</value>
 </answerSet>
 <unit>square kilometre</unit>
 </quantityquery>
