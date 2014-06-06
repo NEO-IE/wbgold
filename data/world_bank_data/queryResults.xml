@@ -1,5 +1,436 @@
 <worldbank-sample-queries>
 <quantityquery>
+ <queryString>AFG;DT.IXA.DPPG.CD</queryString>
+<answerSet>
+<string>1.73552E7-2.18630208E8</string>
+<value time="2006">1.8141E7</value>
+<value time="2007">2.06449E7</value>
+<value time="2008">1.73552E7</value>
+<value time="2009">2.02007E7</value>
+<value time="2010">6.66968E7</value>
+<value time="2011">2.09560496E8</value>
+<value time="2012">2.18630208E8</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;DT.IXA.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-2.7094E7</string>
+<value time="1972">0.0</value>
+<value time="1973">530000.0</value>
+<value time="1974">46000.0</value>
+<value time="1975">2025000.0</value>
+<value time="1976">3212000.0</value>
+<value time="1977">4046000.0</value>
+<value time="1978">5402000.0</value>
+<value time="1979">1150000.0</value>
+<value time="1980">43000.0</value>
+<value time="1981">44000.0</value>
+<value time="1982">44000.0</value>
+<value time="1983">45000.0</value>
+<value time="1984">40000.0</value>
+<value time="1985">53000.0</value>
+<value time="1986">61000.0</value>
+<value time="1987">133000.0</value>
+<value time="1988">95000.0</value>
+<value time="1989">662000.0</value>
+<value time="1990">1291000.0</value>
+<value time="1991">1173000.0</value>
+<value time="1992">2493000.0</value>
+<value time="1993">4778000.0</value>
+<value time="1994">9536000.0</value>
+<value time="1995">1.5147E7</value>
+<value time="1996">25000.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">2.0743E7</value>
+<value time="2002">2.7094E7</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">1.6428E7</value>
+<value time="2006">0.0</value>
+<value time="2007">3670000.0</value>
+<value time="2008">1336000.0</value>
+<value time="2009">1216000.0</value>
+<value time="2010">2210000.0</value>
+<value time="2011">2312000.0</value>
+<value time="2012">2379000.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;DT.IXA.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;DT.IXA.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-2.13238E8</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">1159000.0</value>
+<value time="1990">737000.0</value>
+<value time="1991">807000.0</value>
+<value time="1992">4000.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">2.13238E8</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;DT.IXA.PRVT.CD</queryString>
+<answerSet>
+<string>0.0-36000.0</string>
+<value time="2006">24000.0</value>
+<value time="2007">36000.0</value>
+<value time="2008">36000.0</value>
+<value time="2009">36000.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;DT.IXA.PRVT.CD</queryString>
+<answerSet>
+<string>0.0-3519000.0</string>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">2000.0</value>
+<value time="1976">1000.0</value>
+<value time="1977">0.0</value>
+<value time="1978">164000.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">0.0</value>
+<value time="1990">102000.0</value>
+<value time="1991">482000.0</value>
+<value time="1992">35000.0</value>
+<value time="1993">9000.0</value>
+<value time="1994">1000.0</value>
+<value time="1995">1000.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">3519000.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;DT.IXA.PRVT.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;DT.IXA.PRVT.CD</queryString>
+<answerSet>
+<string>0.0-7.0233E7</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">11000.0</value>
+<value time="1990">20000.0</value>
+<value time="1991">4000.0</value>
+<value time="1992">4000.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">7.0233E7</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;DT.IXF.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-1.05034E7</string>
+<value time="2006">0.0</value>
+<value time="2007">717600.0</value>
+<value time="2008">1.05034E7</value>
+<value time="2009">1437800.0</value>
+<value time="2010">1324700.0</value>
+<value time="2011">1254000.0</value>
+<value time="2012">1253700.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;DT.IXF.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-1.617E7</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">350000.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">1.2634E7</value>
+<value time="2004">1.617E7</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;DT.IXF.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;DT.IXF.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
  <queryString>AFG;EN.ATM.CO2E.KT</queryString>
 <answerSet>
 <string>359.366-8236.082</string>
@@ -799,5 +1230,274 @@
 <value time="2011">770880.0</value>
 </answerSet>
 <unit>square kilometre</unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;DT.IXR.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;DT.IXR.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;DT.IXR.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;DT.IXR.DPPG.CD</queryString>
+<answerSet>
+<string>0.0-6.2529798E8</string>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">6.2529798E8</value>
+<value time="2000">2.36344E8</value>
+<value time="2001">1.28947E8</value>
+<value time="2002">1.45667008E8</value>
+<value time="2003">6872000.0</value>
+<value time="2004">169000.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>AFG;DT.IXA.OFFT.CD</queryString>
+<answerSet>
+<string>1.73192E7-2.18630208E8</string>
+<value time="2006">1.8117E7</value>
+<value time="2007">2.06089E7</value>
+<value time="2008">1.73192E7</value>
+<value time="2009">2.01647E7</value>
+<value time="2010">6.66968E7</value>
+<value time="2011">2.09560496E8</value>
+<value time="2012">2.18630208E8</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>BGD;DT.IXA.OFFT.CD</queryString>
+<answerSet>
+<string>0.0-2.7094E7</string>
+<value time="1972">0.0</value>
+<value time="1973">530000.0</value>
+<value time="1974">46000.0</value>
+<value time="1975">2023000.0</value>
+<value time="1976">3211000.0</value>
+<value time="1977">4046000.0</value>
+<value time="1978">5238000.0</value>
+<value time="1979">1150000.0</value>
+<value time="1980">43000.0</value>
+<value time="1981">44000.0</value>
+<value time="1982">44000.0</value>
+<value time="1983">45000.0</value>
+<value time="1984">40000.0</value>
+<value time="1985">53000.0</value>
+<value time="1986">61000.0</value>
+<value time="1987">133000.0</value>
+<value time="1988">95000.0</value>
+<value time="1989">662000.0</value>
+<value time="1990">1189000.0</value>
+<value time="1991">691000.0</value>
+<value time="1992">2458000.0</value>
+<value time="1993">4769000.0</value>
+<value time="1994">9535000.0</value>
+<value time="1995">1.5146E7</value>
+<value time="1996">25000.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">2.0743E7</value>
+<value time="2002">2.7094E7</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">1.6428E7</value>
+<value time="2006">0.0</value>
+<value time="2007">151000.0</value>
+<value time="2008">1336000.0</value>
+<value time="2009">1216000.0</value>
+<value time="2010">2210000.0</value>
+<value time="2011">2312000.0</value>
+<value time="2012">2379000.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>IND;DT.IXA.OFFT.CD</queryString>
+<answerSet>
+<string>0.0-0.0</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">0.0</value>
+<value time="1990">0.0</value>
+<value time="1991">0.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">0.0</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
+</quantityquery>
+<quantityquery>
+ <queryString>PAK;DT.IXA.OFFT.CD</queryString>
+<answerSet>
+<string>0.0-1.43004992E8</string>
+<value time="1970">0.0</value>
+<value time="1971">0.0</value>
+<value time="1972">0.0</value>
+<value time="1973">0.0</value>
+<value time="1974">0.0</value>
+<value time="1975">0.0</value>
+<value time="1976">0.0</value>
+<value time="1977">0.0</value>
+<value time="1978">0.0</value>
+<value time="1979">0.0</value>
+<value time="1980">0.0</value>
+<value time="1981">0.0</value>
+<value time="1982">0.0</value>
+<value time="1983">0.0</value>
+<value time="1984">0.0</value>
+<value time="1985">0.0</value>
+<value time="1986">0.0</value>
+<value time="1987">0.0</value>
+<value time="1988">0.0</value>
+<value time="1989">1148000.0</value>
+<value time="1990">717000.0</value>
+<value time="1991">803000.0</value>
+<value time="1992">0.0</value>
+<value time="1993">0.0</value>
+<value time="1994">0.0</value>
+<value time="1995">0.0</value>
+<value time="1996">0.0</value>
+<value time="1997">0.0</value>
+<value time="1998">1.43004992E8</value>
+<value time="1999">0.0</value>
+<value time="2000">0.0</value>
+<value time="2001">0.0</value>
+<value time="2002">0.0</value>
+<value time="2003">0.0</value>
+<value time="2004">0.0</value>
+<value time="2005">0.0</value>
+<value time="2006">0.0</value>
+<value time="2007">0.0</value>
+<value time="2008">0.0</value>
+<value time="2009">0.0</value>
+<value time="2010">0.0</value>
+<value time="2011">0.0</value>
+<value time="2012">0.0</value>
+</answerSet>
+<unit></unit>
 </quantityquery>
 </worldbank-sample-queries>
